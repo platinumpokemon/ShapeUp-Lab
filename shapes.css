@@ -4,7 +4,7 @@
     display: inline; }
   
   #background-div {
-    background: coral;
+    background: blue;
     height: 600px;
     width: 600px;
     margin: 0;
@@ -27,7 +27,7 @@
   #circle {
     width: 0;
     height: 0;
-    background: purple;
+    background: yellow;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -38,7 +38,7 @@
   #rectangle {
     width: 0;
     height: 0;
-    background: green;
+    background: orange;
     position: absolute;
     top: 0;
     left: 0; }
@@ -46,7 +46,7 @@
   #square {
     width: 0;
     height: 0;
-    background: red;
+    background: ivory;
     position: absolute;
     top: 0;
     left: 0; }
@@ -54,7 +54,7 @@
   #triangle-bottomleft {
     width: 0;
     height: 0;
-    border-bottom: 0 solid yellow;
+    border-bottom: 0 solid black;
     border-right: 0 solid transparent;
     position: absolute;
     top: 0;
