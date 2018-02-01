@@ -1,0 +1,61 @@
+#info-container {
+    text-align: left;
+    margin: 0;
+    display: inline; }
+  
+  #background-div {
+    background: coral;
+    height: 600px;
+    width: 600px;
+    margin: 0;
+    position: relative;
+    left: 175px;
+    bottom: 260px; }
+  
+  #sidepanel {
+    border: 4px solid black;
+    height: 300px;
+    width: 175px;
+    position: relative;
+    left: 775px;
+    bottom: 860px;
+    visibility: hidden; }
+    #sidepanel p {
+      font-weight: 900;
+      margin: 25px 0; }
+  
+  #circle {
+    width: 0;
+    height: 0;
+    background: purple;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  
+  #rectangle {
+    width: 0;
+    height: 0;
+    background: green;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  
+  #square {
+    width: 0;
+    height: 0;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  
+  #triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 0 solid yellow;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0; }
